@@ -1,0 +1,31 @@
+.containerCharacters {
+  display: flex;
+  flex-direction: column;
+}
+.characters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  background-color: beige;
+  border: 1px solid gray;
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+h4 {
+  font-weight: 500;
+  margin: 1em;
+}
+
+h4 span {
+  font-weight: 1000;
+}
